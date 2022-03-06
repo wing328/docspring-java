@@ -3686,7 +3686,7 @@
         "tags": [
           "PDF"
         ],
-        "operationId": "listSubmissions",
+        "operationId": "listSubmissionsForTemplate",
         "security": [
           {
             "api_token_basic": []
