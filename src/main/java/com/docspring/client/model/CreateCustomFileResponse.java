@@ -49,7 +49,7 @@ import com.docspring.client.JSON;
 /**
  * CreateCustomFileResponse
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-03-07T00:25:21.933203+08:00[Asia/Hong_Kong]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-03-07T00:51:44.596816+08:00[Asia/Hong_Kong]")
 public class CreateCustomFileResponse {
   /**
    * Gets or Sets status

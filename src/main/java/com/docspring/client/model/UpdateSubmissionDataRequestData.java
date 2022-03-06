@@ -49,7 +49,7 @@ import com.docspring.client.JSON;
 /**
  * UpdateSubmissionDataRequestData
  */
-@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-03-07T00:25:21.933203+08:00[Asia/Hong_Kong]")
+@javax.annotation.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-03-07T00:51:44.596816+08:00[Asia/Hong_Kong]")
 public class UpdateSubmissionDataRequestData {
   public static final String SERIALIZED_NAME_AUTH_PHONE_NUMBER_HASH = "auth_phone_number_hash";
   @SerializedName(SERIALIZED_NAME_AUTH_PHONE_NUMBER_HASH)

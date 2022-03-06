@@ -1,8 +1,8 @@
-# openapi-java-client
+# docspring-java
 
 API v1
 - API version: v1
-  - Build date: 2022-03-07T00:25:21.933203+08:00[Asia/Hong_Kong]
+  - Build date: 2022-03-07T00:51:44.596816+08:00[Asia/Hong_Kong]
 
 DocSpring is a service that helps you fill out and sign PDF templates.
 
@@ -39,8 +39,8 @@ Add this dependency to your project's POM:
 ```xml
 <dependency>
   <groupId>com.docspring</groupId>
-  <artifactId>openapi-java-client</artifactId>
-  <version>v1</version>
+  <artifactId>docspring-java</artifactId>
+  <version>0.1.2</version>
   <scope>compile</scope>
 </dependency>
 ```
@@ -51,12 +51,12 @@ Add this dependency to your project's build file:
 
 ```groovy
   repositories {
-    mavenCentral()     // Needed if the 'openapi-java-client' jar has been published to maven central.
-    mavenLocal()       // Needed if the 'openapi-java-client' jar has been published to the local maven repo.
+    mavenCentral()     // Needed if the 'docspring-java' jar has been published to maven central.
+    mavenLocal()       // Needed if the 'docspring-java' jar has been published to the local maven repo.
   }
 
   dependencies {
-     implementation "com.docspring:openapi-java-client:v1"
+     implementation "com.docspring:docspring-java:0.1.2"
   }
 ```
 
@@ -70,7 +70,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-* `target/openapi-java-client-v1.jar`
+* `target/docspring-java-0.1.2.jar`
 * `target/lib/*.jar`
 
 ## Getting Started

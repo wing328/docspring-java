@@ -1,8 +1,8 @@
 lazy val root = (project in file(".")).
   settings(
     organization := "com.docspring",
-    name := "openapi-java-client",
-    version := "v1",
+    name := "docspring-java",
+    version := "0.1.2",
     scalaVersion := "2.11.4",
     scalacOptions ++= Seq("-feature"),
     javacOptions in compile ++= Seq("-Xlint:deprecation"),
